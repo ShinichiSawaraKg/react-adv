@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+.all {
+	font-size: 14px;
+	-webkit-font-smoothing: antialiased;
+}
+
+#root {
+	height: 100%;
+	margin: 0px;
+	display: block;
+	box-sizing: border-box;
+}
+
+.app {
+	/*.esvbtO*/
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+#notification-area {
+	box-sizing: border-box;
+}
+
+.base-style {
+	/*euNjsA*/
+	position: relative;
+	height: 100%;
+	width: 100vw;
+	overflow: hidden;
+
+	/*.byEkcd*/
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: rgb(38, 38, 39);
+	background: rgb(250, 250, 250);
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+.base-content {
+	/*fdYswC*/
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	padding: 0px 20px 20px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.create-content {
+	/*.lcixBJ*/
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	overflow: auto;
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.left-part {
+	/*.xbZvj*/
+	flex-direction: column;
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-right-style: solid;
+	border-left-style: none;
+	width: 256px;
+	flex-shrink: 0;
+	padding-right: 20px;
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.sidebar-editor {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+	width: 100%;
+
+	box-sizing: inherit;
+}
+
+.start-message-panel {
+	/*flex: 36.4 1 0px;  可変*/
+	overflow: hidden;
+
+	box-sizing: inherit;
+}
+
+.start-component {
+	/*.KRuXF*/
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	flex-direction: column;
+	box-shadow: rgba(25, 25, 25, 0.01) 0px 0px 0px 1px inset;
+	border-radius: 12px;
+	background-color: rgb(247, 247, 246);
+	height: 100%;
+	display: flex;
+}
+
+.start-header {
+	/*.kCPoKr*/
+	padding: 20px 24px;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	align-items: center;
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.start-list {
+	/*.keENhW*/
+	flex-direction: column;
+	overflow: hidden auto;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	gap: 4px;
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.start-header-text {
+	/*.knUnjC*/
+	font: 500 14px / 143% -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	display: flex;
+	
+	box-sizing: inherit;
+}
+
+.ending-message-panel {
+	/*flex: 36.4 1 0px;  可変*/
+	overflow: hidden;
+
+	box-sizing: inherit;
+}
+
+.center-part {
+	/*.jZfuIx*/
+	flex-direction: column;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-right-style: none;
+	border-left-style: none;
+	width: auto;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+
+	box-sizing: inherit;
+}
+
+.right-part {
+	/*.iuWuqg*/
+	flex-direction: column;
+	-webkit-box-flex: 0;
+	flex-grow: 0;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-right-style: none;
+	border-left-style: solid;
+	width: 256px;
+	flex-shrink: 0;
+	padding-left: 20px;
+	display: flex;
+
+	box-sizing: inherit;
+}
