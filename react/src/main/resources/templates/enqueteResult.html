@@ -1,12 +1,33 @@
 <!-- enqueteResult.html -->
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
-    <title>Enquete Result</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+	<title>Enquete Result</title>
+	<link rel="stylesheet" href="globalMenu.css">
+	<link rel="stylesheet" href="enqueteResult.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
 </head>
+
 <body>
-    <div id="result-root"></div>
-    <script src="/static/js/enqueteResult.bundle.js"></script>
+	<div class="result-app">
+		<header class="cheif-header">
+			<div class="global-menu"></div>
+			<div class="header-border"></div>
+			<div class="sub-header">
+				<div class="sub-header-parts-area">
+					<div dir="ltr" aria-orientation="horizontal" class="sub-header-parts">
+						<div role="tablist" class="sub-header-tablist">
+							<button type="button" role="tab" aria-selected="false" aria-controls="insights-section" data-state="inactive" id="insights-tab" aria-orientation="horizontal">insights</button>
+							<button type="button" role="tab" aria-selected="true" aria-controls="summary-section" data-state="active" id="summary-tab" aria-orientation="horizontal">summary</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div role="region"></div>
+		<div class="result-base-style"></div>
+	</div>
 </body>
+
 </html>
